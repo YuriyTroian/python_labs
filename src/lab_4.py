@@ -44,13 +44,13 @@ def create_student(name, rating, growth, course_num, specialty):
     return Student(name, rating, growth, course_num, specialty)
 
 def main():
-    student_Arr = [
+    student_arr = [
         create_student("Yurii Troian", 14, 172, 1, "IoT"),
         create_student("John Joy", 30, 180, 2, "KI"),
         create_student("Julie Juli", 56, 165, 3, "SA")
     ]
 
-    print(student_Arr)
+    print(student_arr)
 
     #student1 = create_student("Yurii Troian", 14, 172, 1, "IoT")
     #student2 = create_student("John Joy", 30, 180, 2, "KI")
